@@ -16,6 +16,7 @@ public class App {
 	public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
 		int a = 4;
 		test(a);
+		System.out.println("test-------");
 		System.out.printf("%d + %d = %d", a, a, a); //
 
 	}
